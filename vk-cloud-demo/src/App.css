@@ -1,0 +1,88 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "server network storage"
+    "server kubernetes database"
+    "server kubernetes database"
+    "bigdata bigdata bigdata";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Определяем размеры и расположение элементов */
+.grid-item {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.server {
+  grid-area: server;
+}
+
+.network {
+  grid-area: network;
+}
+
+.storage {
+  grid-area: storage;
+}
+
+.kubernetes {
+  grid-area: kubernetes;
+}
+
+.database {
+  grid-area: database;
+}
+
+.bigdata {
+  grid-area: bigdata;
+}
+
+.show-more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Для маленьких экранов */
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-areas:
+      "server"
+      "network"
+      "storage"
+      "kubernetes"
+      "database"
+      "bigdata";
+    grid-template-columns: 1fr;
+  }
+
+  .server, .network, .storage, .kubernetes, .database, .bigdata {
+    grid-column: span 1;
+  }
+}
