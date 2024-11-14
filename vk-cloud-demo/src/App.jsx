@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from 'react';
 import './App.css';
 import ServiceCard from './components/ServiceCard';
@@ -7,7 +6,7 @@ const services = [
   {
     title: 'Виртуальные серверы',
     description: 'Вычислительные ресурсы в облаке для высокой доступности цифровых сервисов любой сложности',
-    icon: '/icons/icon1.svg',
+    icon: '/icons/big_data_card.png',
     className: 'server',
   },
   {
@@ -37,7 +36,7 @@ const services = [
   {
     title: 'Большие данные',
     description: 'Обработка и анализ больших данных с облачной инфраструктурой на базе Apache Hadoop, Spark, ClickHouse',
-    icon: '/icons/icon6.svg',
+    icon: '/icons/2x_servers_img.png',
     className: 'bigdata',
   },
 ];
