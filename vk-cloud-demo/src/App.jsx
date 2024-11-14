@@ -6,7 +6,7 @@ const services = [
   {
     title: 'Виртуальные серверы',
     description: 'Вычислительные ресурсы в облаке для высокой доступности цифровых сервисов любой сложности',
-    icon: '/icons/big_data_card.png',
+    icon: '/icons/2x_servers_img.png',
     className: 'server',
   },
   {
@@ -36,7 +36,7 @@ const services = [
   {
     title: 'Большие данные',
     description: 'Обработка и анализ больших данных с облачной инфраструктурой на базе Apache Hadoop, Spark, ClickHouse',
-    icon: '/icons/2x_servers_img.png',
+    icon: '/icons/big_data_card.png',
     className: 'bigdata',
   },
 ];
