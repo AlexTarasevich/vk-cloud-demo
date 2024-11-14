@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ServiceCard from './components/ServiceCard';
+import ServiceBigDataCard from './components/ServiceBigDataCard';
 
 const services = [
   {
