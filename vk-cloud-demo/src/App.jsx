@@ -1,6 +1,7 @@
 import React from 'react';
-import LargeServiceCard from './components/LargeServiceCard.jsx';
-import RegularServiceCard from './components/RegularServiceCard.jsx';
+import LargeServiceCard from './components/LargeServiceCard';
+import RegularServiceCard from './components/RegularServiceCard';
+import Button from './components/Button.jsx';
 import './App.css';
 // import icon1 from './icons/icon1.png'; // Замените на реальные пути к вашим иконкам
 // import icon2 from './icons/icon2.png';
@@ -17,7 +18,7 @@ function App() {
           <LargeServiceCard 
             title="Виртуальные серверы" 
             description="Вычислительные ресурсы в облаке для высокой доступности цифровых сервисов любой сложности" 
-           // icon={icon1} 
+            //icon={icon1} 
           />
         </div>
         <div className="grid-item">
@@ -56,6 +57,7 @@ function App() {
           />
         </div>
       </div>
+      <Button text="Показать ещё" />
     </div>
   );
 }

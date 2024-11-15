@@ -1,0 +1,26 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ширина контейнера кнопки будет 100% от родительского элемента */
+    margin-top: 20px;
+  }
+  
+  .show-more-button {
+    width: 100%; /* Кнопка занимает всю ширину контейнера */
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .show-more-button:hover {
+    background-color: #0056b3;
+  }
+  
