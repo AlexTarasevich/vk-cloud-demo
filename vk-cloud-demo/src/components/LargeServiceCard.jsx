@@ -1,9 +1,9 @@
 import React from 'react';
-import './RegularServiceCard.css';
+import '../LargeServiceCard.css';
 
-function RegularServiceCard({ title, description, icon }) {
+function LargeServiceCard({ title, description, icon }) {
   return (
-    <div className="regular-service-card">
+    <div className="large-service-card">
       <div className="icon-container">
         <img src={icon} alt={`${title} icon`} className="service-icon" />
       </div>
@@ -13,4 +13,4 @@ function RegularServiceCard({ title, description, icon }) {
   );
 }
 
-export default RegularServiceCard;
+export default LargeServiceCard;

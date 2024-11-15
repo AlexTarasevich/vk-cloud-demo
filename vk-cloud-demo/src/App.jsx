@@ -1,6 +1,6 @@
 import React from 'react';
-import LargeServiceCard from './LargeServiceCard.jsx';
-import RegularServiceCard from './RegularServiceCard.jsx';
+import LargeServiceCard from './components/LargeServiceCard.jsx';
+import RegularServiceCard from './components/RegularServiceCard.jsx';
 import './App.css';
 // import icon1 from './icons/icon1.png'; // Замените на реальные пути к вашим иконкам
 // import icon2 from './icons/icon2.png';
